@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 4011106495
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9f3f7525501a586d818fd1215cc7337f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dd7deebb83e0a09645ee470b13000032
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Cargo/Box.prefab
+Dependencies: []

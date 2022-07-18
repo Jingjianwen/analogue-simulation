@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 383784725
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 38199aa625b243fad7539291c2e9b0d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d5973bd1e5db167ac2d3b25fcf31d28f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/Conveyer2View.prefab
+Dependencies: []

@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3926556074
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2ca9c0e5d149975628b3c72a94321ea6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 85cc67ed2b104947becc2c3ba41fbd09
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 059f8f3e6d1de064eb65765d37e67c89, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Gizmo/SelAgvCircle.prefab
+Dependencies: []

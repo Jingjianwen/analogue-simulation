@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1010304287
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2d74df6c8f1057bbf43768920023e613
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 362a632a8a73c17fed4ee219382c88ba
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8490ee15c24843142bbc0c4156226caa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e8cd5dd74399dcf418caf9bf4e6a052c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b2ce04997d90934a9b7cf8bee589481, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/RGV_B.prefab
+Dependencies: []

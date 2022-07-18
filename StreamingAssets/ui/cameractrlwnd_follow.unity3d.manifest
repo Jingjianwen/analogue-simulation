@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 2049432194
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 459693845a4b38c26a5aa6f4259e15aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2cd4cf7d86204667ab2133890a6f95cf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8fbc3759211479b4199f06ee69636a56, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/CameraCtrlWnd_Follow.prefab
+Dependencies:
+- "D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"

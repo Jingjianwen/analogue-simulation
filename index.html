@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>AGV数字工厂三维可视化v0.14</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script src="layui/layui.js"></script>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script src="mqtt.min.js"></script>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: #000000;
+            overflow-y: hidden;
+        }
+    </style>
+    <script>
+        var layui_index = layer.msg('正在加载中请稍后... 第一次加载需要几十秒...请耐心等候...', { icon: 1, time: 35000 });
+
+
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/0304Test.json", { onProgress: UnityProgress });
+        function Reset() {
+            var canvas = document.getElementById("#canvas");
+            canvas.height = document.documentElement.clientHeight;
+            canvas.width = document.documentElement.clientWidth;
+        }
+
+    </script>
+
+</head>
+<body onresize="Reset()">
+    <div class="webgl-content" style="width:100%;height:100%">
+        <div id="unityContainer" style="width: 100%; height: 100%"></div>
+    </div>
+</body>
+</html>
+<script>
+    
+    var client;
+	
+	var mqtt_src = "127.0.0.1:1883";
+	var proj_name = "";
+	var collect_agv_by_nav = 0;
+	var dummy_agv_cnt = 0;
+    var mqtt_log = 0;
+	var hide_title = 0;
+		
+	function getQueryVariable(variable, def_v){
+		   let query = window.location.search.substring(1);
+		   let vars = query.split("&");
+		   for (let i=0;i<vars.length;i++) {
+				   let pair = vars[i].split("=");
+				   if(pair[0] == variable){return pair[1];}
+		   }
+		   return def_v;
+	}
+	
+    function js_init_proj_name() {
+		mqtt_src = getQueryVariable("mqtt_src", "");
+        proj_name = getQueryVariable("proj_name", "");
+		collect_agv_by_nav = getQueryVariable("collect_agv_by_nav", "0");
+		dummy_agv_cnt = getQueryVariable("dummy_agv_cnt", "0");
+        mqtt_log = getQueryVariable("mqtt_log", "0");
+		hide_title = getQueryVariable("hide_title", "0");
+		
+		console.log('js init proj name : ' + proj_name.toString());
+		
+        unityInstance.SendMessage("Target", "OnJSInitProjName", "proj_name," + proj_name +",mqtt_src," + mqtt_src +",collect_agv_by_nav," + collect_agv_by_nav + ",mqtt_log," + mqtt_log + ",dummy_agv_cnt," + dummy_agv_cnt + ",hide_title," + hide_title );
+    }
+
+    function js_init() {
+        console.log('js init : mqtt src ' + mqtt_src.toString() + ',   /  /  /  /  /  /  /  /  /  /  /  /  /  /');
+        console.log("Proj name : " + proj_name);
+
+        Reset();
+        setTimeout(function () { layer.close(layui_index); }, 5000);
+
+        // 创建mqtt实例参数类
+        var options = {
+            //mqtt客户端的id，还可以加上其他参数，具体看官方文档
+            clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8)
+        }
+        // 创建mqtt链接
+		//client = mqtt.connect("ws://47.103.131.81:8083/mqtt", options)
+		let wsdes = "wss://" + mqtt_src + "/mqtt";
+		console.log("Pre mqtt connect : " + wsdes);
+        client = mqtt.connect(wsdes, options)
+
+        //建立连接
+        client.on('connect', function () {
+            console.log("mqtt 链接成功!")
+            //订阅主题 presence
+
+            unityInstance.SendMessage("Target", "OnJSMqttConnected", proj_name);
+            /*
+            client.subscribe("AGV/#", function (err) {
+                if (!err) {
+                    console.log("小车信息订阅成功!")
+                } else {
+                    //打印错误
+                    console.log("订阅小车mqtt接口出现错误，错误信息：" + err);
+                }
+            });
+
+            client.subscribe("AWS/#", function (err) {
+                if (!err) {
+                    console.log("AWS信息订阅成功!")
+                } else {
+
+                client.publish('AWS/Goods/InitApply', 'Hello mqtt');
+            client.publish('AWS/Path/InitApply', 'Hello mqtt');
+            client.publish('AWS/Station/InitApply', 'Hello mqtt');
+                }
+            });
+            */
+        });
+
+
+        //如果连接错误，打印错误
+        client.on('error', function (err) {
+            console.log(err)
+            client.end()
+            console.log("连接错误......");
+        });
+
+
+        //订阅主题成功，接收到自己订阅主题的处理逻辑
+        client.on('message', function (topic, message) {
+            if (0 != mqtt_log) {
+                console.log("Js get msg : " + topic + "$" + message.toString());
+            }
+            unityInstance.SendMessage("Target", "ReceiveMsgFromJS", topic + "$" + message.toString());
+            /*
+            var topic_Array = topic.split("/");
+            if (topic_Array == null || topic_Array == undefined) {
+                //分割主体字符串报错
+                console.log("分割主体字符串报错");
+                return;
+            }
+            var _type = topic_Array[0];
+            var _guid = topic_Array[1];
+            switch (_type) {
+                case "AGV":
+         if (topic.indexOf("/io/fork")>0) {
+                    }
+
+                    //货叉高度
+                    if (topic.indexOf("/{5AABA782-6838-4D01-8F44-A930AC64A1E0}/io/fork")>0) {
+                        ForkMove(message.toString());
+                    }
+
+                        if (topic.indexOf("/{70F0B414-BA79-434F-9F9A-D07BBEB66A5A}/io/fork")>0) {
+                        ForkMove2(message.toString());
+                    }
+
+                    //小车位置
+                    if (topic.indexOf("/{5AABA782-6838-4D01-8F44-A930AC64A1E0}/navigator") > 0) {
+                        CarMove(message.toString());
+                    }
+                    if (topic.indexOf("/{70F0B414-BA79-434F-9F9A-D07BBEB66A5A}/navigator") > 0) {
+                        CarMove2(message.toString());
+                    }
+
+                    //任务信息
+                    if (topic.indexOf("/task")>0) {
+                        SetTask(message.toString());
+                    }
+
+                    //货物信息
+                    if (topic.indexOf("/cargo")>0) {
+
+                    }
+
+                    //告警
+                    if (topic.indexOf("/alarms")>0) {
+
+                        if (topic.indexOf("/alarms/hide") > 0) {   //告警解除接口
+
+                            StopAlarms();
+                            StopAlarms1();
+                        }
+                        else {                                      //告警
+                            SetAlarms(message.toString());
+                        }
+
+                    }
+
+                    //小车运动控制  route
+                    if (topic.indexOf("/controller")>0) {
+
+                    }
+
+                    //当前动作
+                    if (topic.indexOf("/route")>0) {
+
+                    }
+
+                    //小车标识接口
+                    if (topic.indexOf("/identity") > 0) {
+                      //  console.log('-> ' + message.toString());
+                    }
+
+
+                    break;
+                case "AWS":
+
+                    //库存库位数据
+                    if (topic.indexOf("/Goods/Init") > 0) {
+                        SetInit(message.toString());
+                        console.log("库存库位数据");
+                        console.log('-> ' + message.toString());
+                    }
+
+                    //小车取货置空点位货物
+                    if (topic.indexOf("/Goods/Clear") > 0) {
+                        console.log("小车取货置空点位货物数据");
+                        console.log('-> ' + message.toString());
+                    }
+
+                    //小车卸货创建点位货物
+                    if (topic.indexOf("/Goods/Add") > 0) {
+                        console.log("小车卸货创建点位货物");
+                        console.log('-> ' + message.toString());
+                    }
+
+                    //小车路径初始化
+                    if (topic.indexOf("/Path/Init") > 0) {
+                        SetPath(message.toString());
+                        console.log("小车路径初始化");
+                        console.log('-> ' + message.toString());
+                    }
+
+
+                    //站点初始化
+                    if (topic.indexOf("/Station/Init") > 0) {
+                        SetStation(message.toString());
+                        console.log("站点初始化");
+                        console.log('-> ' + message.toString());
+                    }
+
+                    break;
+            }*/
+        }
+        )
+    }
+
+    //nh add
+    function js_subscribe_proj(topic, proj_name) {
+        console.log("s proj topic :" + topic + ", proj name '" + proj_name + "'.");
+        
+        {
+            client.subscribe(topic, function (err) {
+                if (!err) {
+                    console.log("AWS信息订阅成功! proj " + proj_name + " , topic : " + topic + " # # # # # # # # # # # # # #");
+
+                    //unityInstance.SendMessage("Target", "OnJSSubscribeProjTopicDone", 0);
+                }
+                else {
+
+                    console.log("AWS信息订阅失败! proj " + proj_name + " , topic : " + topic + ", err " + err.toString() + " # # # # # # # # # # # # # #");
+                    //unityInstance.SendMessage("Target", "OnJSSubscribeProjTopicDone", 100269);
+                }
+            });
+        }
+    }
+    function js_subscribe_agv(topic) {
+        console.log("s agv topic :" + topic);
+        //for (let n = 0; n < topic.length; n++)
+        {
+            client.subscribe(topic, function (err) {
+                if (!err) {
+                    console.log("AGV信息订阅成功!")
+                } else {
+                    //unityInstance.SendMessage("Target", "StopAlarms", AlarmsInfo);
+                }
+            });
+        }
+    }
+    function js_publish(topic, msg) {
+        if (mqtt_log) console.log("js publish : topic " + topic + ", msg '${msg}'.");
+        
+        client.publish(topic, msg);
+    }
+
+</script>

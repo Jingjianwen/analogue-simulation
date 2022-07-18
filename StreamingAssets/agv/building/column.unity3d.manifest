@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 4861213
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a7acad65d0947039d01ec015b03edf0e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b3f2c454fd8faffc471de93be4a48f15
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d6392e2047ad6d41b47fc1075e6f07d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c9322c39c5b40b24ab0e7459a47683a7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Agv/Building/Column.prefab
+Dependencies: []

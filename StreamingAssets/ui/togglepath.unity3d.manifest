@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 3674844037
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4c5434049a4fc0794e479184bb5c9809
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1b929095b32989e9898e9f53d2b48cd0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/TogglePath.prefab
+Dependencies:
+- "D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"

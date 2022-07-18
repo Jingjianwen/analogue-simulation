@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1393201489
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af928d60b7efbb1fda944aa24c60cd65
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 569241b0058f271e4e3d0a71d54693be
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Gizmo/3DText.prefab
+Dependencies:
+- "D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+- D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/material/emission.unity3d

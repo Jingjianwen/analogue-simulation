@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1606146689
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce5a90c8c65a77c6ce6ef36ff4a11df7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 073b09dd4a6fa2bdaf805490ebe0cf06
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: bd40f90bd97027149acb3ff439944996, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/ConveyerLine.prefab
+Dependencies: []

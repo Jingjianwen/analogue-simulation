@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3934366679
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2db5bd46791f78484f55cf39e48cdd63
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 153f56f24f0ad63e13017973311a92b8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e6de2ba512fca9844aa5ac3c00b74e9d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bd40f90bd97027149acb3ff439944996, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/Store3DDemo.prefab
+Dependencies:
+- D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/gizmo/gizmopoint.unity3d

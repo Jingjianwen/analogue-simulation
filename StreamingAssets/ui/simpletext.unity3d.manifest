@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1685661065
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b9a466f266591ff5b81e5ff794374fe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7416a0373258f83f4ccd3eb73119b327
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/SimpleText.prefab
+Dependencies:
+- "D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"

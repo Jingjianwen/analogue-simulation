@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 1027759392
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6215d20c0276447228579f5a3ef8d2b2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d980523eb975abe8343217f9c38b753
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8490ee15c24843142bbc0c4156226caa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ecc303ac5d5df32478c01ec83af1c397, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/LiuHuajiSingle/LiuHuajiLowSingle.prefab
+Dependencies:
+- "D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+- D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/material/mtlred.unity3d

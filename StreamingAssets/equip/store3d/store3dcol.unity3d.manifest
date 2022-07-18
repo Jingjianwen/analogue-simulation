@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 336861895
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f2d2ee6f480f1c31e4efd37b87d602ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cda346a322cf0d79dd0b07e425053e30
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/Store3DCol.prefab
+Dependencies: []

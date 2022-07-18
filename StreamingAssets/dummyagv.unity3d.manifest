@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 694762318
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4c521128f87855d9dc32fc74e80911cf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3aefdaf0b211120664cea14895191822
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 144464fb98ce7e64897f2d62964b0c1c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/DummyAgv.prefab
+Dependencies: []

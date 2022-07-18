@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4252067759
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 44726bcdccc02389666bc80f5e307752
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Cfg/AppCfg.xml
+Dependencies: []

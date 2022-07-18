@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3181616527
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a9c2ed5d291f6306e9f7d824b0caea6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 50116705622e404a7c23e87684542a97
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6928206149e7feb408cda025aa8ed6cf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8490ee15c24843142bbc0c4156226caa, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/TrayRed.prefab
+Dependencies: []

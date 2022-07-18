@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 240597237
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3fcf8f697cf1a880a5f8fa9b4bb77d9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bd0c631a316e01684ae3e391688fec5b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8490ee15c24843142bbc0c4156226caa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b2ce04997d90934a9b7cf8bee589481, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/Conveyer2.prefab
+Dependencies:
+- D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/gizmo/convstationgizmo.unity3d

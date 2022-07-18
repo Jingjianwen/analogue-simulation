@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3885693298
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b96fb4f95084252bbbcfcabebcf809e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc4fe24d9e34e0a88506bb2d9f19fd7c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 03bde5a0a2889f1489a9847242b07d86, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Gizmo/PointGizmo.prefab
+Dependencies: []

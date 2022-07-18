@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 779139435
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0874e650b7203374c22ed9bd0445c9e8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e2c3c7cc3f76a78be6334b1c92b558aa
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Font/FontData.asset
+Dependencies:
+- "D:/AGVGit/AGV_3D_MONITOR/AGV3dMonitor/XCDW/Assets/StreamingAssetsTemp/font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"

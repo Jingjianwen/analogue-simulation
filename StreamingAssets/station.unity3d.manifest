@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1496353746
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7ac5c1e16e294c6415a3dc9db6e2ba51
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4b9a18427041c5975ebd3b4f2de55ada
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2527630d6b065489f99a2aba604b2e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Station.prefab
+Dependencies: []

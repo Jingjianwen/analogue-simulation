@@ -1,0 +1,317 @@
+ManifestFileVersion: 0
+CRC: 4204322977
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: agv/building/column.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: agv/building/wall.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: agv/lindetuopan.unity3d
+      Dependencies:
+        Dependency_0: font/3dtextmtl.unity3d
+        Dependency_1: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_3:
+      Name: agv/mimachache.unity3d
+      Dependencies:
+        Dependency_0: font/3dtextmtl.unity3d
+        Dependency_1: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_4:
+      Name: agv/yufengchache.unity3d
+      Dependencies:
+        Dependency_0: font/3dtextmtl.unity3d
+        Dependency_1: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_5:
+      Name: agv/zhaixiangdao.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: cargo/box.unity3d
+      Dependencies: {}
+    Info_7:
+      Name: cargo/boxsmall.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: cargo/tyre.unity3d
+      Dependencies: {}
+    Info_9:
+      Name: cargo/tyredel.unity3d
+      Dependencies: {}
+    Info_10:
+      Name: cfg/agvcfg.unity3d
+      Dependencies: {}
+    Info_11:
+      Name: cfg/alarm_json.unity3d
+      Dependencies: {}
+    Info_12:
+      Name: cfg/appcfg.unity3d
+      Dependencies: {}
+    Info_13:
+      Name: cfg/debugconfig.unity3d
+      Dependencies: {}
+    Info_14:
+      Name: cfg/projcfg.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: equip/liuhuajisingle/liuhuajilowdual.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+        Dependency_1: material/mtlred.unity3d
+    Info_16:
+      Name: equip/liuhuajisingle/liuhuajilowsingle.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+        Dependency_1: material/mtlred.unity3d
+    Info_17:
+      Name: equip/store3d/4axisroboticarmc.unity3d
+      Dependencies: {}
+    Info_18:
+      Name: equip/store3d/conveyer2.unity3d
+      Dependencies:
+        Dependency_0: gizmo/convstationgizmo.unity3d
+    Info_19:
+      Name: equip/store3d/conveyer2view.unity3d
+      Dependencies: {}
+    Info_20:
+      Name: equip/store3d/conveyer2viewgreen.unity3d
+      Dependencies: {}
+    Info_21:
+      Name: equip/store3d/conveyerline.unity3d
+      Dependencies: {}
+    Info_22:
+      Name: equip/store3d/conveyerpt.unity3d
+      Dependencies: {}
+    Info_23:
+      Name: equip/store3d/convshort.unity3d
+      Dependencies: {}
+    Info_24:
+      Name: equip/store3d/railroboticarm2rail.unity3d
+      Dependencies: {}
+    Info_25:
+      Name: equip/store3d/railroboticarmsignlerail.unity3d
+      Dependencies: {}
+    Info_26:
+      Name: equip/store3d/rgv_b.unity3d
+      Dependencies: {}
+    Info_27:
+      Name: equip/store3d/store3dcol.unity3d
+      Dependencies: {}
+    Info_28:
+      Name: equip/store3d/store3ddemo.unity3d
+      Dependencies:
+        Dependency_0: gizmo/gizmopoint.unity3d
+    Info_29:
+      Name: equip/store3d/store3dfloor.unity3d
+      Dependencies: {}
+    Info_30:
+      Name: equip/store3d/traygreen.unity3d
+      Dependencies: {}
+    Info_31:
+      Name: equip/store3d/trayred.unity3d
+      Dependencies: {}
+    Info_32:
+      Name: font/3dtextmtl.unity3d
+      Dependencies:
+        Dependency_0: font/3dtextshader.unity3d
+        Dependency_1: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_33:
+      Name: font/3dtextshader.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_34:
+      Name: font/fontdata.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_35:
+      Name: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+      Dependencies: {}
+    Info_36:
+      Name: forcustomer/guilun/gapsign.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+        Dependency_1: material/emission.unity3d
+    Info_37:
+      Name: forcustomer/guilun/paths.unity3d
+      Dependencies: {}
+    Info_38:
+      Name: forcustomer/guilun/stations.unity3d
+      Dependencies: {}
+    Info_39:
+      Name: forcustomer/libai/libai_path.unity3d
+      Dependencies: {}
+    Info_40:
+      Name: forcustomer/libai/libai_station.unity3d
+      Dependencies: {}
+    Info_41:
+      Name: forcustomer/libai/wall (5).unity3d
+      Dependencies:
+        Dependency_0: material/mtldefault.unity3d
+    Info_42:
+      Name: gizmo/3dtext.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+        Dependency_1: material/emission.unity3d
+    Info_43:
+      Name: gizmo/autohidegizmo.unity3d
+      Dependencies: {}
+    Info_44:
+      Name: gizmo/ballgizmo.unity3d
+      Dependencies: {}
+    Info_45:
+      Name: gizmo/cargopoint.unity3d
+      Dependencies: {}
+    Info_46:
+      Name: gizmo/cargopointseg.unity3d
+      Dependencies: {}
+    Info_47:
+      Name: gizmo/convstationgizmo.unity3d
+      Dependencies: {}
+    Info_48:
+      Name: gizmo/gizmoline.unity3d
+      Dependencies: {}
+    Info_49:
+      Name: gizmo/gizmopoint.unity3d
+      Dependencies: {}
+    Info_50:
+      Name: gizmo/machinesign.unity3d
+      Dependencies: {}
+    Info_51:
+      Name: gizmo/pointgizmo.unity3d
+      Dependencies: {}
+    Info_52:
+      Name: gizmo/selagvcircle.unity3d
+      Dependencies: {}
+    Info_53:
+      Name: gizmo/stdpartctrnode.unity3d
+      Dependencies: {}
+    Info_54:
+      Name: material/emission.unity3d
+      Dependencies: {}
+    Info_55:
+      Name: material/emissionbreath.unity3d
+      Dependencies: {}
+    Info_56:
+      Name: material/emissionred.unity3d
+      Dependencies: {}
+    Info_57:
+      Name: material/mtldefault.unity3d
+      Dependencies: {}
+    Info_58:
+      Name: material/mtlfloor.unity3d
+      Dependencies: {}
+    Info_59:
+      Name: material/mtlplank.unity3d
+      Dependencies: {}
+    Info_60:
+      Name: material/mtlred.unity3d
+      Dependencies: {}
+    Info_61:
+      Name: ui/agvbubble.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_62:
+      Name: ui/cameractrlwnd.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_63:
+      Name: ui/cameractrlwnd_follow.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_64:
+      Name: ui/consoleroot.unity3d
+      Dependencies: {}
+    Info_65:
+      Name: ui/devicebubble.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_66:
+      Name: ui/gapsignbubble.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_67:
+      Name: ui/poptip.unity3d
+      Dependencies: {}
+    Info_68:
+      Name: ui/simpletext.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_69:
+      Name: ui/startui.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_70:
+      Name: ui/tablefordv.unity3d
+      Dependencies: {}
+    Info_71:
+      Name: ui/tablegrid.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_72:
+      Name: ui/tablegridtitle.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_73:
+      Name: ui/tablerow.unity3d
+      Dependencies: {}
+    Info_74:
+      Name: ui/togglepath.unity3d
+      Dependencies:
+        Dependency_0: "font/\u5FAE\u8F6F\u96C5\u9ED1.unity3d"
+    Info_75:
+      Name: alarminfo.unity3d
+      Dependencies: {}
+    Info_76:
+      Name: camera1.unity3d
+      Dependencies: {}
+    Info_77:
+      Name: car.unity3d
+      Dependencies: {}
+    Info_78:
+      Name: carbubble.unity3d
+      Dependencies: {}
+    Info_79:
+      Name: dotweensettings.unity3d
+      Dependencies: {}
+    Info_80:
+      Name: dummyagv.unity3d
+      Dependencies: {}
+    Info_81:
+      Name: goodsreal.unity3d
+      Dependencies: {}
+    Info_82:
+      Name: hangpt.unity3d
+      Dependencies: {}
+    Info_83:
+      Name: kuwei.unity3d
+      Dependencies: {}
+    Info_84:
+      Name: line.unity3d
+      Dependencies: {}
+    Info_85:
+      Name: path.unity3d
+      Dependencies: {}
+    Info_86:
+      Name: path2.unity3d
+      Dependencies: {}
+    Info_87:
+      Name: pathseg.unity3d
+      Dependencies: {}
+    Info_88:
+      Name: plane.unity3d
+      Dependencies: {}
+    Info_89:
+      Name: renwuinfo.unity3d
+      Dependencies: {}
+    Info_90:
+      Name: station.unity3d
+      Dependencies: {}
+    Info_91:
+      Name: stationbatch.unity3d
+      Dependencies: {}
+    Info_92:
+      Name: stationbubble.unity3d
+      Dependencies: {}
+    Info_93:
+      Name: stationgizmoroot.unity3d
+      Dependencies: {}

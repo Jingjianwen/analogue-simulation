@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1850446573
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5901f567f8c53e65daca8dc7fa5769d4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 638da5054c6e59d258c99ffd2c4db10e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c84d054c32c57bf4f85919743bc9936e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/PopTip.prefab
+Dependencies: []

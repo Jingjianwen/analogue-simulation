@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1400208571
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e76a10fc0853e5339223c25e984c0b6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 798c54f87aa93e37d3842bab65567af2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Equip/Store3D/ConveyerPt.prefab
+Dependencies: []
